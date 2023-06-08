@@ -1,0 +1,288 @@
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+body {
+  width: 98%;
+  background-color: #f7f7f7;
+  /* height: 1500px; */
+}
+.heading {
+  width: 102%;
+  font-size: 30px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 10px #7B7B7B29;
+  /* margin-left: 20px; */
+  /* margin: 30px; */
+  /* padding: 20px; */
+  /* display: rela; */
+  /* background-size: cover; */
+}
+
+
+.headingtext {
+  margin-left: 80px;
+  padding: 10px;
+}
+
+.col {
+  color: #00A5EC;
+}
+.modify {
+  width: 200px;
+  color: #00A5EC;
+  /* display: inline-block; */
+  position: absolute;
+  right: 50px;
+  /* margin-top: 8px; */
+  margin-top: 3px;
+  font-size: 39px;
+}
+
+.newtask {
+  margin-top: 25px;
+  position: relative;
+  right: 200px;
+  /* font-size: 22px; */
+  /* display: inline-block; */
+  
+}
+.col2 {
+  color: #424242;
+  font-size: 22px;
+  /* margin-right: 50px; */
+  position: absolute;
+  right: 70px;
+  margin-top: 8px;
+}
+
+.menucard {
+  position:absolute ;
+  top: 200px;
+  /* display:; */
+  left: 60px;
+  /* padding-left: 30px; */
+
+  /* display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  row-gap: 50px; */
+}
+
+.childheading {
+  font-size: 16px;
+  padding: 39px;
+  margin-left: 80px;
+
+  text-decoration: none;
+}
+
+.childmenu hr {
+  border: 1px solid #ededed;
+  padding-left: 0px;
+  margin-left: 0px;
+  width: 100%;
+  /* padding-left: -100px; */
+  margin-bottom: 20px;
+}
+
+.childmenu {
+  height: 360px;
+  width: 370px;
+  border: 1px solid #ededed;
+  background-color: #ffffff;
+
+  margin-left: 30px;
+  border-radius: 10px;
+}
+.childmenu2 {
+  padding-left: 50px;
+  font-size: 20px;
+  /* margin-bottom: 8px; */
+  color: rgba(0, 0, 0, 0.225);
+  /* text-decoration: line-through; */
+  /* text-decoration: none; */
+  margin-top: 19px;
+}
+
+.check1 {
+  height: 25px;
+  width: 25px;
+  font-size: 28px;
+  /* margin-top: 5px; */
+  color: rgba(0, 0, 0, 0.225);
+  
+}
+.check2 {
+    text-decoration: line-through;
+   
+    color: rgba(0, 0, 0, 0.237);
+    
+}
+
+.check1 {
+  height: 25px;
+  width: 25px;
+  font-size: 25px;
+  /* margin-top: 5px; */
+  color: rgba(0, 0, 0, 0.225);
+  /* margin-top: px; */
+  
+}
+.check3 {
+    text-decoration: none;
+    /* text-decoration: ; */
+    color: #424242;
+}
+
+.check4 {
+  text-decoration: none;
+  /* padding-bottom: 10px; */
+  margin-bottom: 12px;
+  
+ 
+}
+
+.check5 {
+  height: 22px;
+  width: 22px;
+  font-size: 22px;
+  /* margin-top: 5px; */
+  color: #F7F7F7;
+  /* margin-top: px; */
+}
+
+
+
+.childmenubox2 {
+
+  position: absolute;
+  top: 0px;
+  left: 380px;
+}
+
+.childmenubox3 {
+
+  position: absolute;
+  top: 0px;
+  left: 760px;
+}
+
+.childmenubox4 {
+
+  position: absolute;
+  margin-top: 20px;
+}
+
+.childmenubox5 {
+  position: absolute;
+  top: 382px;
+  left: 380px;
+}
+
+
+
+.parentdiv {
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  left: 600px;
+  top: 300px;
+
+  
+  /* padding-left: 0px; */
+  border: 1px solid #EDEDED;
+  border-radius: 10px;
+  
+  box-shadow: 0px 0x 20px;
+  opacity: 100%;
+  background-color: #FFFFFF ;
+  z-index: 2;
+
+}
+.newtaskchild {
+
+  
+ 
+  display: flex;
+  justify-content: space-between;
+   /* align-items: center; */
+   /* margin-bottom: px; */
+   padding: 15px 15px;
+  
+ 
+}
+
+.imag {
+  
+  width: 15px;
+  height: 15px;
+  color: #858585;
+  /* font-weight: bold; */
+ 
+}
+.cols2 {
+  font-size: 20px;
+  margin-right: 100px;
+  text-decoration: none;
+}
+.cols {
+
+  text-decoration: none;
+  color: #404040;
+  font-weight: bold;
+}
+
+.hrline {
+  border: 1px solid #EDEDED;
+}
+
+.cplus {
+  /* text-align: center; */
+  margin: 0px auto;
+  width: 90%;
+  margin-top: 15px;
+  margin-left: 10px;
+  padding: 8px;
+  background-color:#F7F7F7 ;
+  border: 1px solid #EDEDED;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.add-task {
+  color: #FFFFFF ;
+  background-color: #00A5EC;
+}
+.anchorlink {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+
+}
+button {
+  position: relative;
+  left: 259px;
+  background-color: #00A5EC;
+  padding: 10px;
+  padding-left: 0px;
+ width: 130px;
+ border:1px #EDEDED ;
+ margin-top: 20px;
+ border-radius: 5px;
+ text-align: center;
+
+}
+
+.opa {
+  position: absolute;
+  width: 100%;
+  background-color: black;
+  opacity: 60%;
+  height: 1008px;
+  top: 0px;
+}
